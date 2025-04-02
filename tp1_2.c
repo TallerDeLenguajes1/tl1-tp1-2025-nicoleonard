@@ -40,7 +40,11 @@ int main(){
     cuadrado_pero_void(x);
     direccion_y_contenido(&x);
 
-    int a=2, b=5;
+    int a,b;
+    printf("Ingrese un entero: ");
+    scanf("%d", &a);
+    printf("Ingrese otro entero: ");
+    scanf("%d", &b);
     printf("previo inversion: a=%d, b=%d \n",a,b);
     invertir(&a,&b);
     printf("post inversion: a=%d, b=%d \n",a,b);
