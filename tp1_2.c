@@ -17,11 +17,20 @@ void direccion_y_contenido(int *x){
     printf("contenido: %d \n", *x);
     return;
 }
-
+//4d
 void invertir(int *a, int *b){
     int aux=*a;
     *a=*b;
     *b=aux;
+    return;
+}
+//4e
+void orden(int *a, int *b){
+    if(b<a){
+        int aux=*a;
+        *a=*b;
+        *b=aux;
+    }
     return;
 }
 int main(){
@@ -31,9 +40,11 @@ int main(){
     cuadrado_pero_void(x);
     direccion_y_contenido(&x);
 
-    int a=2, b=3;
+    int a=2, b=5;
     printf("previo inversion: a=%d, b=%d \n",a,b);
     invertir(&a,&b);
     printf("post inversion: a=%d, b=%d \n",a,b);
+    orden(&a,&b);
+    printf("ordenados: a=%d b=%d", a,b);
     return 0;
 }
