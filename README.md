@@ -3,3 +3,7 @@
     a) Es conveniente incluir el archivo gitignore para poder filtrar los archivos disponibles para el control de versiones.
     Es mejor agregarlo al principio, asi no se lleve el control de archivos innecesarios que surgen de las compilaciones o de la misma configuracion del IDE.
     Se lo puede escribir en un editor de texto, o con una aplicacion como gitignore.io para generar el archivo.
+
+3)
+    g) La direccion de memoria almacenada por el puntero es igual que la direccion de memoria de la variable, esto se debe a que el puntero guarda la direccion de la variable a la que apunta.
+    En el punto 4 se obtiene una direccion diferente, no es igual a las otras porque esta es la direccion de el puntero en la memoria.
